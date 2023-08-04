@@ -11,13 +11,13 @@ const Hero = () => {
           <h1 className="xl:text-6xl lg:text-5xl md:text-6xl text-4xl font-serif ">
             Plan your love journey with us right by your side
           </h1>
-          <div className="flex my-10 flex-col xl:flex-row ">
+          <div className="flex my-10 flex-col xl:flex-row justify-around">
             <InputFields text="Venues" title="Category" />
             <InputFields text="Gujarat" title="City" />
           </div>
           <button
             type="button"
-            className="focus:outline-none text-[#173535] bg-white font-medium rounded-sm text-md px-6 py-2 ml-auto mr-12"
+            className="focus:outline-none text-[#173535] bg-white font-medium rounded-sm text-md px-6 py-2 ml-auto mr-9 "
           >
             View results
           </button>

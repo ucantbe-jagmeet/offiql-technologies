@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const InputFields = ({ text, title }) => {
   return (
-    <div className="mx-5 my-4">
+    <div className=" mx-5 my-4">
       <label
         className="block text-xs  absolute text-white -mt-3 ml-2 px-2 py-1 bg-[#173535]  "
         htmlFor="inputField"
