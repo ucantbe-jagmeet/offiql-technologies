@@ -1,9 +1,14 @@
+import { Navbar } from "./components";
+import { Categories, Footer, Hero, WedCategory } from "./pages";
+
 function App() {
   return (
     <>
-      <div>
-        <h2 className="text-3xl text-white bg-black">Hello World</h2>
-      </div>
+      <Navbar />
+      <Hero />
+      <WedCategory />
+      <Categories />
+      <Footer />
     </>
   );
 }
