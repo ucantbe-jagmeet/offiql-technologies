@@ -75,7 +75,7 @@ const Footer = () => {
             </span>
           </div>
           <div>
-            <h1 className="font-semibold text-lg">Lorem Ipsum</h1>
+            <h1 className="font-semibold text-lg">Home</h1>
             {data.map((item, index) => {
               return (
                 <>
@@ -87,7 +87,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <h1 className="font-semibold text-lg">Lorem Ipsum</h1>
+            <h1 className="font-semibold text-lg">Social Links</h1>
             {data.map((item, index) => {
               return (
                 <>
@@ -99,7 +99,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <h1 className="font-semibold text-lg">Lorem Ipsum</h1>
+            <h1 className="font-semibold text-lg">About</h1>
             {data.map((item, index) => {
               return (
                 <>
@@ -111,7 +111,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <h1 className="font-semibold text-lg">Lorem Ipsum</h1>
+            <h1 className="font-semibold text-lg">Contact</h1>
             {data.map((item, index) => {
               return (
                 <>
