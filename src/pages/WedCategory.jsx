@@ -2,7 +2,7 @@ import CategoriesList from "../components/CategoriesList";
 
 const WedCategory = () => {
   return (
-    <div className="  flex flex-col items-center justify-center px-10 pt-10">
+    <div className="  flex flex-col items-center justify-center px-10 pt-10 bg-[#F5F5F5]">
       <div className="md:text-6xl text-4xl font-bold font-sans ">
         <h2>Wedding Categories</h2>
       </div>
@@ -13,7 +13,7 @@ const WedCategory = () => {
           nulla doloribus
         </p>
       </div>
-      <div className="my-5">
+      <div className="mt-10">
         <CategoriesList />
       </div>
     </div>
