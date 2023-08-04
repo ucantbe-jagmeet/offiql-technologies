@@ -19,8 +19,8 @@ import title08 from "./src/assets/images/title-08.png";
 
 const data = [
   {
-    title: { title01 },
-    image: { img01 },
+    title: title01,
+    image: img01,
     heading: "Lorem Ipsum",
     text: "lorem ipsum sit amet, conseasstetur adipersing elit",
   },

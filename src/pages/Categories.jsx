@@ -68,7 +68,7 @@ const data = [
 
 const Categories = () => {
   return (
-    <div className="h-auto bg-[#F5F5F5] flex flex-col items-center sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-24 lg:gap-y-10 pt-14 ">
+    <div className="h-auto bg-[#F5F5F5] flex flex-col items-center sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-24 lg:gap-y-10 pt-14 pb-16 ">
       {data.map((item, index) => {
         const { title, image, text, heading } = item;
         return (
@@ -105,6 +105,12 @@ const Categories = () => {
           </>
         );
       })}
+
+      <div className="w-[85vw] flex justify-center">
+        <button className=" w-32 py-1 border-2 border-gray-500 rounded-sm">
+          View All -{">"}
+        </button>
+      </div>
     </div>
   );
 };
