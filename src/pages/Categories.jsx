@@ -77,8 +77,8 @@ const Categories = () => {
               key={index}
               className={
                 index % 2 === 0
-                  ? "h-[25rem] w-72 bg-white rounded-md flex flex-col justify-center  shadow-md border-2"
-                  : "h-[25rem] w-72 bg-white rounded-md flex flex-col justify-center  shadow-md border-2 mt-16"
+                  ? "h-[25rem] w-72 bg-white mb-5 rounded-md flex flex-col justify-center  shadow-md border-2"
+                  : "h-[25rem] w-72 bg-white mb-5 rounded-md flex flex-col justify-center  shadow-md border-2 md:mt-20"
               }
             >
               <img
@@ -107,7 +107,7 @@ const Categories = () => {
       })}
 
       <div className="w-[85vw] flex justify-center">
-        <button className=" w-32 py-1 border-2 border-gray-500 rounded-sm">
+        <button className=" w-32 py-1 border-2 border-gray-500 rounded-sm mt-5">
           View All -{">"}
         </button>
       </div>

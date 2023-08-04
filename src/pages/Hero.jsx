@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-[500px] bg-[#173535] grid lg:grid-cols-2 grid-cols-1 ">
-        <div className="text-white flex flex-col justify-center lg:ml-20 px-10 lg:px-0">
+        <div className="text-white flex flex-col justify-center lg:ml-20 px-10 lg:px-0 relative">
           <h1 className="xl:text-6xl lg:text-5xl md:text-6xl text-4xl font-serif ">
             Plan your love journey with us right by your side
           </h1>
@@ -22,8 +22,8 @@ const Hero = () => {
             View results
           </button>
         </div>
-        <div className="abolute bg-gradient-to-r from-[#064646] to-[#091a1a94] w-4/5 ml-auto hidden lg:block">
-          <div>
+        <div className=" bg-gradient-to-r from-[#064646] to-[#091a1a94] w-4/5 ml-auto hidden lg:block ">
+          <div className="relative ">
             <img
               src={bg}
               alt="background image"
@@ -32,7 +32,7 @@ const Hero = () => {
             <img
               src={main}
               alt="main image"
-              className="absolute bottom-32 right-64 hidden xl:block  "
+              className="absolute top-[4.6rem] -left-24 hidden xl:block  "
             />
           </div>
         </div>
