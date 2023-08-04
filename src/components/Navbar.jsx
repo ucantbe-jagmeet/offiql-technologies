@@ -8,7 +8,7 @@ const navLinksData = ["Venues", "Vendors", "Blog"];
 const Navbar = () => {
   return (
     <>
-      <div className="h-20  flex justify-around items-center mt-1 ml-2">
+      <div className="h-20  flex justify-around items-center  ml-2">
         <div className="">
           <img src={logo} alt="main-img" className="h-15 object-contain" />
         </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
           <input
             type="text"
             id="input"
-            className=" text-gray-900 text-sm rounded-full w-80 px-5 py-2 mr-2 border-2 hidden outline-none pl-9 lg:block"
+            className=" text-gray-900 text-sm rounded-full w-80 px-5 py-2 mr-2 border-2 hidden outline-none pl-9 lg:block "
             placeholder="Search Venues or vendors"
           />
           <button
