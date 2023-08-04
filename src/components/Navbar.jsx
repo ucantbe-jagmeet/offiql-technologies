@@ -8,7 +8,7 @@ const navLinksData = ["Venues", "Vendors", "Blog"];
 const Navbar = () => {
   return (
     <>
-      <div className="h-20  flex justify-around items-center mt-1">
+      <div className="h-20  flex justify-around items-center mt-1 ml-2">
         <div className="">
           <img src={logo} alt="main-img" className="h-15 object-contain" />
         </div>
