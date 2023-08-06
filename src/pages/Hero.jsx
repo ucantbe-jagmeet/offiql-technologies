@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-[500px] bg-[#173535] grid lg:grid-cols-2 grid-cols-1 ">
-        <div className="text-white flex flex-col justify-center lg:ml-20 px-10 lg:px-0 relative">
+        <div className="text-white flex flex-col justify-center lg:ml-20 px-5 lg:px-0 relative">
           <h1 className="xl:text-6xl lg:text-5xl md:text-6xl text-4xl font-serif ">
             Plan your love journey with us right by your side
           </h1>

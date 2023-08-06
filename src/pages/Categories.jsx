@@ -89,7 +89,7 @@ const Categories = () => {
               <img
                 src={image}
                 alt="img"
-                className="h-60 object-cover w-[80%] mx-auto mb-4"
+                className="h-60 w-[85%] mx-auto mb-4 object-contain"
               />
               <div
                 className={
