@@ -8,7 +8,6 @@ const data = [
 
 const Footer = () => {
   return (
-    <div>
       <footer className=" h-auto text-white body-font bg-[#13362D]">
         <div className="grid grid-cols-2 gap-20 p-10 md:grid-cols-3 lg:grid-cols-5">
           <div className="flex  flex-col items-center justify-evenly">
@@ -128,7 +127,6 @@ const Footer = () => {
           <h2>@2023 - Mangal Baazar | All right reserved</h2>
         </div>
       </footer>
-    </div>
   );
 };
 
