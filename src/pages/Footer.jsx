@@ -123,7 +123,7 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div className="h-14 bg-[#1A3F35] w-screen flex justify-between px-14 items-center text-gray-300 text-sm">
+        <div className="h-14 bg-[#1A3F35] w-full flex justify-between px-14 items-center text-gray-300 text-sm">
           <h2>Terms and Conditions</h2>
           <h2>@2023 - Mangal Baazar | All right reserved</h2>
         </div>
